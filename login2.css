@@ -1,0 +1,121 @@
+body {
+	background:url(../images/banner3.jpg);
+	background-position:center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	}
+h1 {
+	font-size:50px;
+	text-align:center;
+	padding:10px 0;
+	color:black;
+	text-transform:uppercase;
+}
+a{
+	font-size:20px;
+	margin-right:30px;
+	color: black;
+	padding:10px 0;
+}
+/*--purple box align--*/
+.form-w3ls {
+	background: #E1B817;/*--form purple --*/
+	padding: 40px 50px;
+	width:20%;/*--purple form width --*/
+	margin:0 auto;
+	color: black;
+	margin-top:75px;
+}
+/*--username,password --*/
+
+.link:hover
+{
+	text-decoration: underline;
+	
+
+}
+.ma{
+font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+
+font-size:20px;
+text-align:right;
+position:relative;
+bottom:90px;
+margin-bottom:0px;
+padding-bottom:0px;
+
+}
+
+div#signin-agile input[type="text"],div#signin-agile input[type="password"],div#signup-agile input[type="text"],div#signup-agile input[type="tel"],div#signup-agile input[type="email"],div#signup-agile input[type="password"] 
+
+/*--//username,password type space--*/
+{
+	padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(30, 0, 41, 0);
+    color:black;
+    font-size: 16px;
+    background-color:white;/*--type space color --*/
+    margin-top: 1em;
+    margin-bottom: 2em;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+/*--//checkbox--*/
+div#signin-agile .sign-in, div#signin-agile .join-us{
+	padding:10px;
+	background-color:rgba(7, 4, 7, 0.71);
+	width:100%;
+	border:0;
+    color:white;
+    letter-spacing:1px;
+	 font-family: 'Poiret One', cursive;
+    font-size:20px;
+    text-transform:uppercase;
+}
+/*--//sing in button color and letter color--*/
+div#signin-agile .sign-in:hover,div#signin-agile .join-us:hover {
+	background-color :white;
+	color:black;
+	
+	}
+
+/*--//sing in button color and letter color--*/
+ .sign:hover {
+	background-color :white;
+	color:black;
+	
+	}
+	input[type="submit"] {
+    font-size:10PX;
+    color:WHITE;
+    background:BLACK ;
+    outline: none;
+    border: none;
+    
+    cursor: pointer;
+   padding:10PX;
+    -webkit-appearance: none;
+    width: 45%;
+    margin: 1em 0;
+	
+}
+input[type="button"] {
+    font-size:10PX;
+    color:BLACK;
+    background:lightgrey ;
+    outline: none;
+    border: none;
+    align:left;
+    cursor: pointer;
+    padding:10PX;
+    -webkit-appearance: none;
+    width: 43%;
+    margin: 2em 0;*/
+}
+
+	div#signin-agile .login100-form-btn:hover {
+	background-color :gray;
+	color:black;
+	
+	}
+/*--//sing in button color and letter color--*/
+ 

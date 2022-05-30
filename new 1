@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: lightgray;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: blue;
+ font-size:20px;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.active{
+background-color: gray;
+color: white;
+}
+li a:hover {
+  background-color: orange;
+  color: white;
+}
+</style>
+</head>
+<body>
+<ul>
+  <li><a class="active" href="staff_home.php">Home</a></li>
+  <li><a href="staff_profile.php">Profile</a></li>
+  <li><a href="staff_view"> Payment History </a></li>
+  <li><a href="metre_reading">Meter Reading</a></li>
+  <li><a href="request_view">View Request</a></li>
+  <li><a href="logout.php">Logout</a></li>
+</ul>
